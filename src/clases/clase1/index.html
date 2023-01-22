@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso de React</title>
+        <link rel="stylesheet" href="index.css" >
+        <style>
+            .container {
+                padding: 10px !important;
+                border: 1px solid;
+            }   
+            #container {
+                background-color: #f1f1f1;
+            }                     
+            div a {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="fede">Esta es la primera clase</h1>
+
+        <div style="color: blue;" >
+
+            <a href="index.html">
+                <img serc="" >
+            </a>
+        </div>
+        <div id="mi_funcion" class="container"></div>
+        <div id="fede" class="container"></div>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Música</a></li>
+                <li><a href="#">El artista</a></li>
+                <li><a href="#">Composiciones Audiovisuales</a></li>
+                <li><a href="#">Prensa</a></li>           
+            </ul>
+            <button onclick="miFuncion()">Click</button>
+        </nav>
+        <script src="index.js"></script>
+        <script>
+            // console.log('Hola mundo')
+            // fetch()          
+            
+            // const miFuncion = () => {
+            //     let nombre= 'fede'
+            //     document.getElementById('mi_funcion').innerHTML = "Ejemplo de mi funición."
+            //     // console.log(nombre);
+            // }
+
+            // {
+
+            //     let apellido = 'Osandon'
+            //     console.log(apellido)
+            // }
+
+            // var nombre = 'Federico' // global
+
+            // const dni = 321321321 // constante
+            // // dni = 212121
+
+
+            // const objPersona = {
+            //     dni: 464646465465
+            // }
+            // objPersona.dni = 212121
+            // console.log(objPersona.dni)
+
+            function Saludo ( nombre, apellido ){
+                console.log('Hola sos el mejor: \n'+ nombre + ' y tu apellido es: '+ apellido )
+            }
+
+            // const saludo =  ( nombre, apellido = 'Perez' ) => {
+            //     console.log( `Hola ${nombre} y tu apellido es ${apellido}` )
+            // }
+           
+
+            saludo( 'fEDE', null ) // QUE LE PASO A LA LLAMADA
+
+        </script>
+        <!-- <noscript>
+            <h1>Este sitio necesita javascript</h1>
+        </noscript> -->
+    </body>
+</html>

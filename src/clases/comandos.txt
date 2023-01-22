@@ -1,0 +1,23 @@
+// 1 primera forma: Utilizando la librería create-reac-app
+
+1- descargar librería: 
+    npm i -g create-react-app
+    npm i --global create-react-app
+2- crear la app con create-react-app: 
+    create-react-app [nombre-app] 
+3ro cd prueba-uno
+4ro npm start
+
+
+// 2- segunda forma: usando npx 
+    npx create-react-app [nombre-app] 
+    cd pruebados-npx
+    npm start
+
+// 3- forma Vite: 
+    npm create vite@latest [nombre-app]
+    cd comsion34870
+    npm install
+    npm run dev
+
+

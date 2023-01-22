@@ -1,0 +1,15 @@
+
+/* mediante clases */
+.container {
+    padding: 10px !important;
+    border: 1px solid;
+}
+  
+/* mediante un id */
+#fede { 
+    color: blue;
+}
+
+div {
+    color: red;
+}
