@@ -37,7 +37,7 @@ export const ItemListContainer  = ( {saludo} ) => {
     // [1,2,3,4,5] -> map -> [ <li>1</li>, <li>2</li>, <li>3</li>, <li>4</li>, <li>5</li>]
     return (
         <div className='container'> 
-            {/* <h2>{saludo}</h2>  */}
+            <h2>Envío Gratis desde $9999 solo CABA y zonas* de GBA + 3 cuotas sin interés: {saludo}</h2> 
             
             {   loading 
                 ? 
@@ -46,7 +46,7 @@ export const ItemListContainer  = ( {saludo} ) => {
                     </center>
                 :
                 
-                    <ItemList productos={productos}/>
+                    <ItemList productos={productos} />
             }
         </div>
     )

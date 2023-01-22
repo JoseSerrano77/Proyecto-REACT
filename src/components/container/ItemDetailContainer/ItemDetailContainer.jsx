@@ -4,17 +4,21 @@ import { gFetch } from "../../../utils/gFetch"
 import ItemDetail from "../ItemDetail/ItemDetail"
 
 
-const ItemDetailContainer = () => {
+const ItemDetailContainer = ({saludo}) => {
     const [producto , setProducto] = useState ({})
     const {detaliId} = useParams()
-    // console.log(detaliId)
+     console.log(detaliId)
 
      useEffect (() => {
         gFetch(detaliId)
         .then(resp => setProducto(resp))
      },[])
     return (
+        <div className='container'> 
+        <h2> {saludo}</h2>
         <ItemDetail producto={producto}/>
+       
+        </div>
     )
 }
 
